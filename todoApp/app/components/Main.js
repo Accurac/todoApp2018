@@ -22,9 +22,8 @@ constructor(props) {
 
   render() {
     let notes = this.state.noteArray.map((val, key) => {
-      return <Note
-key={key} keyval={key} val={val}
-      deleteMethod={() => this.deleteNote(key)} />
+      return <Note key={key} keyval={key} val={val}
+              deleteMethod={() => this.deleteNote(key)} />
     });
 
     return (
@@ -64,7 +63,7 @@ key={key} keyval={key} val={val}
         'date': d.getFullYear() +
         "/" + (d.getMonth() + 1) +
         "/" + d.getDate(),
-        'note': this.state.noteText
+        'note': this.state.noteText,
       });
       this.setState({ noteArray: this.state.noteArray });
       this.setState({ noteText: '' });
