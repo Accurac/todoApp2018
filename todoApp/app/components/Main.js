@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
         flex: 1,
   },
   header: {
-      backgroundColor: '#E91E63',
+      backgroundColor: '#3333ff',
       alignItems: 'center',
       justifyContent: 'center',
       borderBottomWidth: 10,
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
       zIndex: 11,
       right: 20,
       bottom: 90,
-      backgroundColor: '#E91E63',
+      backgroundColor: '#a6a6a6',
       width: 70,
       height: 70,
       borderRadius: 35,
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
       elevation: 8
   },
   addButtonText: {
-      color: '#fff',
-      fontSize: 24
+      color: 'white',
+      fontSize: 50
   }
 });
